@@ -28,5 +28,8 @@ function generateTags(value) {
      }, 3000);
      return;
    }
+   btn.disabled = true;
+   btn.innerHTML = "Loading...";
     location.href = `https://www.instagram.com/explore/tags/${value}`; 
+   
 }
